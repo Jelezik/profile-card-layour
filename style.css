@@ -1,0 +1,96 @@
+.card {
+    width: 510px;
+    height: 340px;
+    border: yellow 1px solid;
+    border-radius: 15px;
+    background-color: #37486A;
+    padding: 10px 10px 0 10px;
+}
+
+.avatar {
+    border-radius: 100px;
+    width: 40%;
+    height: 20%;
+    margin: 5px 10px 0 0;
+}
+
+.card-info {
+    width: 50%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.lower-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.idInfo {
+  width: 12em;
+  color: gray;
+}
+
+.textInfoCard {
+    margin-left: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.dis-prof, .ref-pay {
+  height: 135%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 1px black;
+}
+
+.but-let {
+  width: 9em;
+  height: 3em;
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+}
+
+.but-stats {
+    width: 9em;
+    height: 3em;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.upId {
+    color: white;
+    font-size: 20px;
+}
+
+.wallet {
+    color: white;
+}
+
+.balance {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.textRef {
+  color: red;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.textDis {
+    color: yellow;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
